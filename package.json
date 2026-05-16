@@ -1,0 +1,26 @@
+{
+  "name": "bttuan02_cnphanmemmoi",
+  "version": "1.0.0",
+  "description": "Ứng dụng Fullstack với Express.js và React.js",
+  "main": "index.js",
+  "scripts": {
+    "backend": "npm start --prefix BACKEND_EXPRESSJS",
+    "frontend": "npm run dev --prefix FRONTEND_REACTJS/reactjs01",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luuloneranger/BTTuan02_CNPhanMemMoi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Luuloneranger/BTTuan02_CNPhanMemMoi/issues"
+  },
+  "homepage": "https://github.com/Luuloneranger/BTTuan02_CNPhanMemMoi#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
